@@ -1,0 +1,36 @@
+# Each line should have up to 4 keys in it separated by commas.
+# There should be a comma at the end as well.
+# The currently active profile should have ! at the start of the line.
+#
+# The keys should appear in this order:
+# 1. BackLeft button
+# 2. BackRight button
+# 3. FrontLeft button
+# 4. FrontRight button
+# Example: !R,F,S,L,
+#
+# If you want to skip one of the buttons, put _ in its place.
+# There should be no whitespace of any kind on the line.
+
+# Here, define which pins the buttons are connected to.
+# Example: :14,15,13,
+:19,3,0,1,
+
+# BackLeft = R
+# BackRight = F
+# FrontLeft = S
+# FrontRight = L
+R,F,S,L,
+
+# BackLeft = F6
+# BackRight = F3
+!F6,F3,_,_,
+
+# RetroArch
+E,F3,F2,F4,
+
+# VBA-M
+_,_,S,F1,
+
+# PCSX2
+_,TAB,F1,F3
